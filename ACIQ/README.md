@@ -1,4 +1,4 @@
-# cnn-quantization
+# ACIQ
 
 ## Dependencies
 - python3.x
