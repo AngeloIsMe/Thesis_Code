@@ -4,7 +4,7 @@ import os
 
 
 def get_cifar10():
-    path = '/home/Datasets/cifar10'
+    path = '/home/Datasets/CIFAR10'
     train_dataset = torchvision.datasets.CIFAR10(
         root=path, train=True, download=True,
         transform=torchvision.transforms.Compose([
